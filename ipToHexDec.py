@@ -21,6 +21,7 @@ def long(ip):
 
 ip = long(sys.argv[2])
 
-if argument == "D":
+if argument == "-D":
     print("\nIP formatted as decimal: %s" % (ip))
+elif argument == "-H":
     print("\nIP formatted as hexadecimal: %s" % (hex(ip)))
